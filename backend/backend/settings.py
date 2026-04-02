@@ -10,6 +10,9 @@ DEBUG = True
 
 ALLOWED_HOSTS = ['localhost', '84.252.132.36', 'ya.servehalflife.com']
 
+CSRF_TRUSTED_ORIGINS = [
+    'https://ya.servehalflife.com',
+]
 
 # Application definition
 
